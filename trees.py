@@ -1,4 +1,4 @@
-rom __future__ import annotations
+from __future__ import annotations
 import random, time, os, sys
 try:
   from selenium.webdriver import Chrome, ChromeOptions
