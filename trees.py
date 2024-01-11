@@ -33,6 +33,8 @@ def ecosia():
         driver.save_screenshot('screenshot1.png')
     except KeyboardInterrupt:
       print("Recieved an interrupt! Shutting down...")
+    except Exception:
+      pass
     finally:
       #driver.close()
       driver.quit()
