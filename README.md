@@ -1,1 +1,1 @@
-extension xhttps://ecosia.co/200M
+extension https://ecosia.co/200M
