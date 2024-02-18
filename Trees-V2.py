@@ -75,6 +75,7 @@ def ecosia():
           time.sleep(5)
     except KeyboardInterrupt:
       print("Recieved an interrupt! Shutting down...")
+      sys.exit()
     except Exception:
       pass
     finally:
