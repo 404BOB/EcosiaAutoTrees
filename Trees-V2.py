@@ -10,8 +10,7 @@ except Exception:
 from datetime import datetime
 from time import gmtime, strftime
 now = datetime.now()
-current_time = now.strftime("%H:%M:%S")
-print("Current Time =", current_time)
+print(now)
 print('')
 print\
 ("""
@@ -32,8 +31,7 @@ print\
 
 """)
 try:
-  print('')
-  inp=input('Type Location & press return/enter else press return/enter: ')
+  inp=input('Input Location else press return/enter: ')
 except Exception:
   pass
 def ecosia():
