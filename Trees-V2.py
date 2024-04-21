@@ -4,6 +4,7 @@ try:
   from selenium.webdriver import Chrome, ChromeOptions
   from selenium.webdriver.common.by import By
 except Exception:
+  os.system('sudo apt-get install pip')
   os.system('pip install selenium')
   python = sys.executable
   os.execl(python, python, * sys.argv)
@@ -16,7 +17,7 @@ print\
 ("""
 
  _______  _______  _______  _______ _________ _______ 
-(  ____ \(  ____ \(  ___  )(  ____ \\__   __/(  ___  )
+(  ____ \(  ____ \(  ___  )(  ____ \I__   __/(  ___  )
 | (    \/| (    \/| (   ) || (    \/   ) (   | (   ) |
 | (__    | |      | |   | || (_____    | |   | (___) |
 |  __)   | |      | |   | |(_____  )   | |   |  ___  |
