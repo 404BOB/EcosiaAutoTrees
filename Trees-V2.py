@@ -55,7 +55,7 @@ def ecosia():
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
     #chrome_options.add_argument("start-maximized")
-    chrome_options.add_argument('--user-data-dir=./')
+    chrome_options.add_argument('--user-data-dir=./data/')
     chrome_options.add_argument('--disable-infobars')
     #PATH = "/Users/yourPath/Desktop/chromedriver"
     #driver = webdriver.Chrome(PATH, options=options)
